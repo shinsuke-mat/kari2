@@ -81,7 +81,7 @@ const mutations = {
         };
         state.scale = 1;
         state.viewBox = {
-            minX: 0,
+            minX: -100,
             minY: 0,
             width: state.size.width,
             height: state.size.height

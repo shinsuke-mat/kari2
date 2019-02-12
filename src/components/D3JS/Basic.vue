@@ -64,7 +64,7 @@
         /**
          * data
          * */
-        private showAllEdges: boolean = true;
+        private showAllEdges: boolean = false;
 
         private unwatch: () => void = () => {
         };
@@ -232,6 +232,7 @@
                     height: this.contentHeight
                 }
             });
+            this.$store.commit('LayoutStore/dismissCrossEdges');
             this.$store.commit('Layout')
         }
     }

@@ -31,7 +31,7 @@
                     });
             },
             outputFormat: function () {
-                return 'line-by-line';
+                return 'side-by-side';
             },
             getDiffs: function () {
                 const variant = this.$store.getters['VariantStore/variant'](this.variantId);

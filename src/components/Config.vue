@@ -23,7 +23,7 @@
     @Component
     export default class Config extends Vue {
 
-        public isOpen: boolean = true;
+        public isOpen: boolean = false;
 
         public get buttonText(): string {
             return (this.isOpen) ? 'Close' : 'Open';
